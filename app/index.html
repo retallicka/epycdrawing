@@ -27,6 +27,7 @@
     <canvas id="canvas" width="490" height="700"></canvas>
     <button class="draw"></button>
     <button class="erase"></button>
+    <button class="save"></button>
     
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -41,6 +42,8 @@
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/file-saver.js/FileSaver.js"></script>
+    <script src="/bower_components/canvas-to-Blob.js/canvas-toBlob.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
     
@@ -60,7 +63,7 @@
     <!-- endbuild -->
     
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
+    <script src="scripts/drawingInterface.js"></script>
     <!-- endbuild -->
   </body>
 </html>

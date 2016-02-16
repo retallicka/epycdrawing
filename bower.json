@@ -2,7 +2,9 @@
   "name": "epycdrawing",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "~3.3.5"
+    "bootstrap-sass": "~3.3.5",
+    "canvas-to-Blob.js": "*",
+    "file-saver.js": "~1.20150507.2"
   },
   "overrides": {
     "bootstrap-sass": {
